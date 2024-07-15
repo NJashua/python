@@ -1,0 +1,64 @@
+Python -> numpy, pandas, matplotlib, seaborn, tensor flow, pytorch, skicit learn
+Cloud -> ms-azure
+Database -> mysql, snowflake
+
+
+club-> mllib + frmwrk + db...,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Machine Learing
+
+## using numpy
+
+# Library's are used in ml and data visu&analysis
+
+1.)  For data science and data analysis
+
+-> pandas, numpy, scikit-learn, matplotlib
+
+2.) for ml and engineering teams
+-> tensorflow, scikit-learn, xgboost or lightgbm, keras, pytorch, seaborn, opencv
+
+3.) for web development
+-> flask or Django and SQLALCHEMY for db operations
+
+
+mean-> to find the average value in a data set
+meadin -> to find the mid value in a dataset
+mode-> to find the repeated value in a  dataset
+std-> to find the standard deviation in a dataset by using scipy stats
+percentile-> to find the percentiles are used in statistics to give you a number that describes the value that a
+		given percent of the values are lower than. 
+
