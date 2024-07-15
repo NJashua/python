@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transactions Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Transactions Dashboard</h1>
+    <div id="credit_score"></div>
+    <div id="income_vs_salary"></div>
+    <div id="age_distribution"></div>
+    <div id="fig_graph"></div>
+    
+    <script>
+        var graphs_credit_score = {{ graphJSON_credit_score|safe }};
+        Plotly.plot('credit_score', graphs_credit_score.data, graphs_credit_score.layout);
+        
+        var graphs_income_vs_salary = {{ graphJSON_income_vs_salary|safe }};
+        Plotly.plot('income_vs_salary', graphs_income_vs_salary.data, graphs_income_vs_salary.layout);
+        
+        var graphs_age_distribution = {{ graphJSON_age|safe }};
+        Plotly.plot('age_distribution', graphs_age_distribution.data, graphs_age_distribution.layout);
+
+        var graphs_fig_graph = {{ graphJSON_fig_graph|safe }};
+        Plotly.plot('fig_graph', graphs_fig_graph.data, graphs_fig_graph.layout);
+    </script>
+</body>
+</html>
